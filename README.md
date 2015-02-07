@@ -1,6 +1,7 @@
 # io.js Norge
 
-Norske oversettelser av [io.js](https://iojs.org/).
+Norske oversettelser av [io.js](https://iojs.org/). Disusjonen foregår primært
+[her på Github](https://github.com/iojs/iojs-no/issues).
 
 ## io.js Norge på sosiale medier
 
