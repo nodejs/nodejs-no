@@ -1,11 +1,12 @@
-# iojs-no
+# io.js Norge
+
 Norske oversettelser av [io.js](https://iojs.org/).
 
-## Sosiale Medier
+## io.js Norge på sosiale medier
 
 * [Twitter @iojs_no](https://twitter.com/iojs_no)
 
-## Medlemmer
+## Medlemmer av io.js Norge
 
 Send en DM til [@iojs_no](https://twitter.com/iojs_no), eller kontakt en av
 medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
