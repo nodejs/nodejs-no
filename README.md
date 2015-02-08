@@ -16,6 +16,7 @@ medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 * Stian Veum Møllersen ([@mollerse](https://github.com/mollerse))
 * Mikael Brevik ([@mikaelbr](https://github.com/mikaelbr))
 * Asbjorn Enge ([@asbjornenge](https://github.com/asbjornenge))
+* Espen Dalløkken ([@leftieFriele](https://github.com/leftieFriele))
 
 ## [MIT lisens](https://github.com/iojs/iojs-no/blob/master/LICENSE)
 
