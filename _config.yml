@@ -25,7 +25,7 @@ relative_permalinks: false
 permalink: /post/:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 timezone: NO
 encoding: UTF-8
 
