@@ -21,6 +21,7 @@ medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 * Anders Olsen Sandvik ([@Andersos](https://github.com/Andersos))
 * Martin Ek ([@ekmartin](https://github.com/ekmartin))
 * Eirik Morland ([@eiriksm](https://github.com/eiriksm))
+* Tri M. Nguyen ([@tmn](https://github.com/tmn))
 
 ## [MIT lisens](https://github.com/iojs/iojs-no/blob/master/LICENSE)
 
