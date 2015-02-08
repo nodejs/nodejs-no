@@ -2,8 +2,19 @@ name: 'io.js'
 description: 'Bringer ES6 til Node-fellesskapet!'
 author: io.js Norge
 
+iojs_release: 2015-02-03
+iojs_version: 1.1.0
+v8_version: 4.1.0.14
+
 iojs_url: https://iojs.org/
+iojs_org: https://github.com/iojs/
 iojs_git: https://github.com/iojs/io.js/
+iojs_issues: https://github.com/iojs/io.js/issues/
+iojs_changelog: https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md
+iojs_v1changes: https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100
+iojs_governance: https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme
+iojs_coc: https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct
+iojs_contribute: https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md
 
 iojsno_url: http://iojs.no
 iojsno_git: https://github.com/iojs/iojs-no/
