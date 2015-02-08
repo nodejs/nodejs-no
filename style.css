@@ -25,6 +25,9 @@ body {
   padding-right: 25px;
   margin: 0 auto;
 }
+.content--blog {
+  text-align: left;
+}
 
 header {
   background: #292829;
