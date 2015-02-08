@@ -13,14 +13,14 @@ Norske oversettelser av [io.js](https://iojs.org/). Disusjonen foregår primært
 Send en melding til [@iojs_no](https://twitter.com/iojs_no), eller kontakt en av
 medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 
-* Hans Kristian Flaatten ([@starefossen](https://github.com/starefossen))
-* Stian Veum Møllersen ([@mollerse](https://github.com/mollerse))
-* Mikael Brevik ([@mikaelbr](https://github.com/mikaelbr))
-* Asbjorn Enge ([@asbjornenge](https://github.com/asbjornenge))
-* Espen Dalløkken ([@leftieFriele](https://github.com/leftieFriele))
 * Anders Olsen Sandvik ([@Andersos](https://github.com/Andersos))
-* Martin Ek ([@ekmartin](https://github.com/ekmartin))
+* Asbjorn Enge ([@asbjornenge](https://github.com/asbjornenge))
 * Eirik Morland ([@eiriksm](https://github.com/eiriksm))
+* Espen Dalløkken ([@leftieFriele](https://github.com/leftieFriele))
+* Hans Kristian Flaatten ([@starefossen](https://github.com/starefossen))
+* Martin Ek ([@ekmartin](https://github.com/ekmartin))
+* Mikael Brevik ([@mikaelbr](https://github.com/mikaelbr))
+* Stian Veum Møllersen ([@mollerse](https://github.com/mollerse))
 * Tri M. Nguyen ([@tmn](https://github.com/tmn))
 
 ## [MIT lisens](https://github.com/iojs/iojs-no/blob/master/LICENSE)
