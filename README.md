@@ -9,7 +9,7 @@ Norske oversettelser av [io.js](https://iojs.org/). Disusjonen foregår primært
 
 ## Medlemmer av io.js Norge
 
-Send en DM til [@iojs_no](https://twitter.com/iojs_no), eller kontakt en av
+Send en melding til [@iojs_no](https://twitter.com/iojs_no), eller kontakt en av
 medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 
 * Hans Kristian Flaatten ([@starefossen](https://github.com/starefossen))
