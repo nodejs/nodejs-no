@@ -19,6 +19,7 @@ medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 * Espen Dalløkken ([@leftieFriele](https://github.com/leftieFriele))
 * Anders Olsen Sandvik ([@Andersos](https://github.com/Andersos))
 * Martin Ek ([@ekmartin](https://github.com/ekmartin))
+* Eirik Morland ([@eiriksm](https://github.com/eiriksm))
 
 ## [MIT lisens](https://github.com/iojs/iojs-no/blob/master/LICENSE)
 
