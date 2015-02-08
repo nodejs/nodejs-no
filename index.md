@@ -29,7 +29,7 @@ layout: default
       Last ned til
       <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-linux-x64.tar.xz">Linux</a>,
       <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-x86.msi">Win32</a>, <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-x64.msi">Win64</a>,
-      or
+      eller
       <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}.pkg">Mac</a>.
     </span>
     <br>
