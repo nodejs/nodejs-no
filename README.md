@@ -6,6 +6,7 @@ Norske oversettelser av [io.js](https://iojs.org/). Disusjonen foregår primært
 ## io.js Norge på sosiale medier
 
 * [Twitter @iojs_no](https://twitter.com/iojs_no)
+* [Gitter Chat](https://gitter.im/iojs/iojs-no)
 
 ## Medlemmer av io.js Norge
 
