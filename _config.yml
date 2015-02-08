@@ -1,0 +1,28 @@
+name: 'io.js'
+description: 'Bringer ES6 til Node-fellesskapet!'
+author: io.js Norge
+
+iojs_url: https://iojs.org/
+iojs_git: https://github.com/iojs/io.js/
+
+iojsno_url: http://iojs.no
+iojsno_git: https://github.com/iojs/iojs-no/
+
+ga_id: UA-59507608-1
+
+relative_permalinks: false
+permalink: /post/:year/:month/:day/:title/
+excerpt_separator: <!--more-->
+markdown: redcarpet
+highlighter: true
+timezone: NO
+encoding: UTF-8
+
+safe: true
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
