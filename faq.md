@@ -7,7 +7,7 @@ title: faq
 
 <a id="hva-er-iojs"></a>
 
-## Hva er io.sj?
+## Hva er io.js?
 
 [io.js]({{ site.iojs_url }}) er en JavaScript plattform byget på [Chromes sitt
 V8 kjøremiljø](http://code.google.com/p/v8/).  Prosjektet begynte som en fork av
