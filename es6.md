@@ -13,17 +13,17 @@ er tilgjengelig for io.js utviklere innen rimelig tid. I tillegg vil sikkerhets-
 og ytelesesforbedringer komme raskt.
 
 Versjon {{ iojs_version }} av io.js kommer med V8 {{ v8_version }}, denne
-inkluderer ES6 funksjoner godt forbi versjon 3.26.33 som vil bli levert med
-joyent/node@0.12.x.
+inkluderer ES6 funksjoner godt forbi versjon 3.28.73 som vil bli levert med
+Node.js™ 0.12.x.
 
 ## Slutt på --harmony flagget
 
-Med joyent/node@0.12.x (V8 3.26) aktiverte  `--harmony` flagget alle 
+Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony` flagget alle 
 **completed**, **staged** og **in progress** ES6 funksjoner sammen
-(med unntak av ikke-standard/ikke-harmonisk semantikk for `typeof` som 
-ble skjult ved bruk av `--harmony-typeof`). Dette resulterte i at buggy eller 
+(med unntak av `proxies` som 
+ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at buggy eller 
 til og med ødelagte funksjoner som 
-[proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+[Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 var like tilgjengelig for utviklere som 
 [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*),
 som hadde veldig få eller ingen kjente problemer. Følgelig var det sikrest
