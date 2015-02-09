@@ -3,35 +3,35 @@ layout: default
 title: ES6
 ---
 
-# ES6 on io.js
+# ES6 i io.js
 
-io.js is built against modern versions of [V8](https://code.google.com/p/v8/).
-By keeping up-to-date with the latest releases of this engine we ensure new
-features from the [JavaScript ECMA-262
-specification](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
-are brought to io.js developers in a timely manner, as well as continued
-performance and stability improvements.
+io.js er bygget med moderne versjoner av [V8](https://code.google.com/p/v8/).
+Ved å holde prosjektet oppdatert med de siste versjonene av denne motoren sørger
+vi for at nye funksjoner fra [JavaScript 
+ECMA-262 spesifikasjonen](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+er tilgjengelig for io.js utviklere innen rimelig tid. I tillegg vil sikkerhets-
+og ytelesesforbedringer komme raskt.
 
-Version {{ iojs_version }} of io.js ships with V8 {{ v8_version }}, which
-includes ES6 features well beyond version 3.26.33 that will be shipped with
+Versjon {{ iojs_version }} av io.js kommer med V8 {{ v8_version }}, som 
+inkluderer ES6 funksjoner godt forbi versjon 3.26.33 som vil bli levert med
 joyent/node@0.12.x.
 
-## No more --harmony flag
+## Slutt på --harmony flagget
 
-On joyent/node@0.12.x (V8 3.26), the `--harmony` runtime flag enabled all
-**completed**, **staged** and **in progress** ES6 features together, in bulk
-(with the exception of nonstandard/non-harmonious semantics for `typeof` which
-were hidden under `--harmony-typeof`). This meant that some really buggy or even
-broken features like
+Med joyent/node@0.12.x (V8 3.26) aktiverte  `--harmony` flagget alle 
+**completed**, **staged** og **in progress** ES6 funksjoner sammen
+(med unntak av ikke-standard/ikke-harmonisk semantikk for `typeof` som 
+ble skjult ved bruk av `--harmony-typeof`). Dette resulterte i at buggy eller 
+til og med ødelagte funksjoner som 
 [proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
-were just as readily available for developers as
+var like tilgjengelig for utviklere som 
 [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*),
-which had very little or even no known-issues. As such, it was best practice to
-either enable only certain features by using specific runtime harmony feature
-flags (e.g. `--harmony-generators`), or simply enable all of them and then use a
-restricted subset.
+som hadde veldig få eller ingen kjente problemer. Følgelig var det sikrest
+å enten aktivere et fåtall funksjoner ved å bruke spesifikke harmony-flagg (f.eks.
+`--harmony-generators`), eller aktivere dem alle og deretter bare bruke
+en begrenset delmengde.
 
-With io.js@1.x (V8 4.1+), all that complexity goes away. All harmony features
+Med io.js@1.x (V8 4.1+) forsvinner all denne kompleksiteten. All harmony features
 are now logically split into three groups for **shipping**, **staged** and **in
 progress** features:
 
