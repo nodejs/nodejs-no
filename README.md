@@ -17,6 +17,7 @@ medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 * Asbjorn Enge ([@asbjornenge](https://github.com/asbjornenge))
 * Eirik Morland ([@eiriksm](https://github.com/eiriksm))
 * Espen Dalløkken ([@leftieFriele](https://github.com/leftieFriele))
+* Geir Gåsodden ([@zrrrzzt](https://github.com/zrrrzzt))
 * Hans Kristian Flaatten ([@starefossen](https://github.com/starefossen))
 * Martin Ek ([@ekmartin](https://github.com/ekmartin))
 * Mikael Brevik ([@mikaelbr](https://github.com/mikaelbr))
