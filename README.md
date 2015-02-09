@@ -20,6 +20,7 @@ medlemmene under, hvis du ønsker å bli med på det Norske io.js-laget.
 * Geir Gåsodden ([@zrrrzzt](https://github.com/zrrrzzt))
 * Hans Kristian Flaatten ([@starefossen](https://github.com/starefossen))
 * Martin Ek ([@ekmartin](https://github.com/ekmartin))
+* Michael McMillan ([@michaelmcmillan](https://github.com/michaelmcmillan))
 * Mikael Brevik ([@mikaelbr](https://github.com/mikaelbr))
 * Stian Veum Møllersen ([@mollerse](https://github.com/mollerse))
 * Tri M. Nguyen ([@tmn](https://github.com/tmn))
