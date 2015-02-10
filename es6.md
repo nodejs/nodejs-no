@@ -5,21 +5,21 @@ title: ES6
 
 # ES6 i io.js
 
-io.js er bygget med moderne versjoner av [V8](https://code.google.com/p/v8/).
-Ved å holde prosjektet oppdatert med de siste versjonene av denne motoren sørger
+io.js bruker moderne versjoner av [V8](https://code.google.com/p/v8/).
+Ved å holde prosjektet oppdatert med de siste versjonene av V8 sørger
 vi for at nye funksjoner fra [JavaScript 
 ECMA-262 spesifikasjonen](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 er tilgjengelig for io.js utviklere innen rimelig tid. I tillegg vil sikkerhets-
 og ytelesesforbedringer komme raskt.
 
 Versjon {{ iojs_version }} av io.js kommer med V8 {{ v8_version }}, denne
-inkluderer ES6 funksjoner godt forbi versjon 3.28.73 som vil bli levert med
+inkluderer ES6-funksjoner godt forbi versjon 3.28.73 som vil bli levert med
 Node.js™ 0.12.x.
 
-## Slutt på --harmony flagget
+## Slutt på --harmony-flagget
 
 Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony` flagget alle 
-**completed**, **staged** og **in progress** ES6 funksjoner sammen
+**completed**, **staged** og **in progress** ES6-funksjoner sammen
 (med unntak av `proxies` som 
 ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at buggy eller 
 til og med ødelagte funksjoner som 
@@ -53,10 +53,10 @@ progress** funksjoner:
    i 3.26. Disse er "bruk på egen risiko" funksjoner som nå krever flagget
    : `--es_staging` (eller synonymet, `--harmony`).
  * Avsluttende kan alle **in progress** funksjoner bli aktivert individuelt
-   av deres respektive harmony flagg (f.eks. `--harmony_arrow_functions`), selv om 
+   av deres respektive harmony-flagg (f.eks. `--harmony_arrow_functions`), selv om 
    dette ikke er anbefalt - ved mindre det brukes til testing.
 
-## Hvilke ES6 funksjoner følger med io.js som standard (uten å bruke flagg)?
+## Hvilke ES6-funksjoner følger med io.js som standard (uten å bruke flagg)?
 
  * Block scoping
    * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a>
@@ -66,8 +66,8 @@ progress** funksjoner:
 Fra og med v8 3.31.74.1, er block-scoped declarations <a
 href="https://groups.google.com/forum/#!topic/v8-users/3UXNCkAU8Es">forsettlig
 implementert med en ikke-kompatibel begrensning til strict modus kode.</a> 
-Utviklere bør være klar over at dette vil endres i takt med V8 implementasjon
-av ES6 spesifikasjonen.
+Utviklere bør være klar over at dette vil endres i takt med V8 sin implementasjon
+av ES6-spesifikasjonen.
 
  * Collections
    * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a>
@@ -84,13 +84,13 @@ av ES6 spesifikasjonen.
 Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på 
 <a href="https://kangax.github.io/compat-table/es6/">compat-table</a> prosjektsiden.
 
-## Hvilke ES6 ligger i --es_staging flagget?
+## Hvilke ES6-funksjoner ligger i --es_staging flagget?
 
  * <a href="https://github.com/lukehoban/es6features#classes">Classes</a> (strict mode only)
  * <a href="https://github.com/lukehoban/es6features#enhanced-object-literals">Object literal extensions</a></li>
  * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">`Symbol.toStringTag`</a> (user-definable results for `Object.prototype.toString`)
 
-## Jeg har min infrastruktur satt til å bruke --harmony flagg. Burde jeg fjerne det?
+## Jeg har min infrastruktur satt til å bruke --harmony-flagg. Burde jeg fjerne det?
 
 Den nåværende oppførselen til `--harmony` flagget i io.js er å kun aktivere
 **staged** funksjoner. Tross alt er nå dette synonymt med `--es_staging`. 
