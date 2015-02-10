@@ -14,9 +14,11 @@ V8-kjøremiljø](http://code.google.com/p/v8/).  Prosjektet begynte som en fork 
 [Joyents Node.js™](https://nodejs.org/) og er kompatibel med
 [npm's](https://www.npmjs.org/) økosystem.
 
-Hvorfor? io.js ønsker å tilby raskere og mer forutsigbare lanseringer.  For
-øyeblikket inkluderes de nyeste språk-, API-, og ytelsesforbedringene til V8,
-samtidig som libuv og andre grunnbiblioteker blir oppdatert.
+## Hvorfor?
+
+io.js ønsker å tilby raskere og mer forutsigbare lanseringer.  For øyeblikket
+inkluderes de nyeste språk-, API-, og ytelsesforbedringene til V8, samtidig som
+libuv og andre grunnbiblioteker blir oppdatert.
 
 Dette prosjektet ønsker å fortsette utviklingen av io.js under en [åpen
 styringsmodell]({{ iojs_governance }}), i motsetning til å bli forvaltet av et
