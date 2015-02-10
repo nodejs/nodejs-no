@@ -12,7 +12,7 @@ title: faq
 [io.js]({{ site.iojs_url }}) er en JavaScript-plattform bygget på [Chromes
 V8-kjøremiljø](http://code.google.com/p/v8/). Prosjektet begynte som en fork av
 [Joyents Node.js™](https://nodejs.org/) og er kompatibel med
-[npm's](https://www.npmjs.org/) økosystem.
+[npm's](https://www.npmjs.com/) økosystem.
 
 ## Hvorfor?
 
