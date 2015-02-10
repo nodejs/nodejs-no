@@ -43,7 +43,7 @@ progress** funksjoner:
    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla#Additions_to_the_String_object">new
    string methods</a> og mange flere er nå skrudd **på som standard i io.js** og
    krever  **INGEN** flagg.
- * Deretter er det **staged** funksjoner er nesten fullførte funksjoner som ikke  
+ * Deretter er det **staged** funksjoner, som er nesten fullførte funksjoner som ikke  
    har blitt fullstendig testet eller oppdatert i henhold til den siste spesifikasjonen
    enda, følgelig er de ikke ansett som stabile av V8 laget (f.eks. kan det være
    noen 'edge cases' som ikke har blitt oppdaget). Dette er mest sannsynlig 
