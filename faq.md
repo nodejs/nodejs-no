@@ -10,13 +10,13 @@ title: faq
 ## Hva er io.js?
 
 [io.js]({{ site.iojs_url }}) er en JavaScript-plattform bygget på [Chromes
-V8-kjøremiljø](http://code.google.com/p/v8/).  Prosjektet begynte som en fork av
+V8-kjøremiljø](http://code.google.com/p/v8/). Prosjektet begynte som en fork av
 [Joyents Node.js™](https://nodejs.org/) og er kompatibel med
 [npm's](https://www.npmjs.org/) økosystem.
 
 ## Hvorfor?
 
-io.js ønsker å tilby raskere og mer forutsigbare lanseringer.  For øyeblikket
+io.js ønsker å tilby raskere og mer forutsigbare lanseringer. For øyeblikket
 inkluderes de nyeste språk-, API-, og ytelsesforbedringene til V8, samtidig som
 libuv og andre grunnbiblioteker blir oppdatert.
 
