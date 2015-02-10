@@ -90,7 +90,7 @@ Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på
  * <a href="https://github.com/lukehoban/es6features#enhanced-object-literals">Object literal extensions</a></li>
  * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">`Symbol.toStringTag`</a> (user-definable results for `Object.prototype.toString`)
 
-## Jeg har min infrastruktur satt til å bruke --harmony-flagg. Burde jeg fjerne det?
+## Jeg bruker --harmony-flagg i produksjon. Burde jeg fjerne det?
 
 Den nåværende oppførselen til `--harmony` flagget i io.js er å kun aktivere
 **staged** funksjoner. Tross alt er nå dette synonymt med `--es_staging`. 
