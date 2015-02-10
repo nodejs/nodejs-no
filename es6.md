@@ -18,7 +18,7 @@ Node.js™ 0.12.x.
 
 ## Slutt på --harmony-flagget
 
-Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony` flagget alle 
+Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony`-flagget alle 
 **completed**, **staged** og **in progress** ES6-funksjoner sammen
 (med unntak av `proxies` som 
 ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at ustabile eller 
@@ -84,7 +84,7 @@ av ES6-spesifikasjonen.
 Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på 
 <a href="https://kangax.github.io/compat-table/es6/">compat-table</a> prosjektsiden.
 
-## Hvilke ES6-funksjoner ligger i --es_staging flagget?
+## Hvilke ES6-funksjoner ligger i --es_staging-flagget?
 
  * <a href="https://github.com/lukehoban/es6features#classes">Classes</a> (strict mode only)
  * <a href="https://github.com/lukehoban/es6features#enhanced-object-literals">Object literal extensions</a></li>
@@ -92,7 +92,7 @@ Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på
 
 ## Jeg bruker --harmony-flagg i produksjon. Burde jeg fjerne det?
 
-Den nåværende oppførselen til `--harmony` flagget i io.js er å kun aktivere
+Den nåværende oppførselen til `--harmony`-flagget i io.js er å kun aktivere
 **staged** funksjoner. Tross alt er nå dette synonymt med `--es_staging`. 
 Som nevnt overfor are dette fullførte funksjoner som enda ikke er ansett
 som stabile enda. Hvis du ønsker å være på den sikre siden, kanskje spesielt
