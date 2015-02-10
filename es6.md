@@ -45,7 +45,7 @@ progress** funksjoner:
    krever  **INGEN** flagg.
  * Deretter er det **staged** funksjoner, som er nesten fullførte funksjoner som ikke  
    har blitt fullstendig testet eller oppdatert i henhold til den siste spesifikasjonen
-   enda, følgelig er de ikke ansett som stabile av V8 laget (f.eks. kan det være
+   enda. Følgelig er de ikke ansett som stabile av V8 laget (f.eks. kan det være
    noen 'edge cases' som ikke har blitt oppdaget). Dette er mest sannsynlig 
    ekvivalent med tilstanden til 
    <a
