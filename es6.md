@@ -27,7 +27,7 @@ til og med ødelagte funksjoner som
 var like tilgjengelig for utviklere som 
 [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*),
 som hadde veldig få eller ingen kjente problemer. Følgelig var det sikrest
-å enten aktivere et fåtall funksjoner ved å bruke spesifikke harmony-flagg (f.eks.
+å aktivere enten et fåtall funksjoner ved å bruke spesifikke harmony-flagg (f.eks.
 `--harmony-generators`), eller aktivere dem alle og deretter bare bruke
 en begrenset delmengde.
 
