@@ -21,7 +21,7 @@ Node.js™ 0.12.x.
 Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony` flagget alle 
 **completed**, **staged** og **in progress** ES6-funksjoner sammen
 (med unntak av `proxies` som 
-ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at buggy eller 
+ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at ustabile eller 
 til og med ødelagte funksjoner som 
 [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 var like tilgjengelig for utviklere som 
