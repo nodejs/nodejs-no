@@ -3,7 +3,7 @@ description: 'Bringer ES6 til Node-fellesskapet!'
 author: io.js Norge
 
 iojs_release: 2015-02-03
-iojs_version: 1.1.0
+iojs_version: 1.2.0
 v8_version: 4.1.0.14
 
 iojs_url: https://iojs.org/
