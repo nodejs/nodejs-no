@@ -12,7 +12,7 @@ ECMA-262 spesifikasjonen](http://www.ecma-international.org/publications/standar
 er tilgjengelig for io.js utviklere innen rimelig tid. I tillegg vil sikkerhets-
 og ytelesesforbedringer komme raskt.
 
-Versjon {{ iojs_version }} av io.js kommer med V8 {{ v8_version }}, denne
+Versjon {{ site.iojs_version }} av io.js kommer med V8 versjon {{ site.v8_version }}, denne
 inkluderer ES6-funksjoner godt forbi versjon 3.28.73 som vil bli levert med
 Node.js™ 0.12.x.
 
