@@ -25,6 +25,7 @@ body {
   padding-right: 25px;
   margin: 0 auto;
 }
+
 .content--leftAlign {
   text-align: left;
 }
@@ -72,6 +73,13 @@ h2 {
   color: black;
   font-size: 1.4rem;
   margin-top: 3rem;
+}
+
+blockquote {
+  border-left: 3px solid rgba(0,0,0,0.8);
+  margin-left: -23px;
+  padding-left: 20px;
+  font-style: italic
 }
 
 p {
