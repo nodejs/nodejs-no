@@ -12,30 +12,29 @@ ECMA-262 spesifikasjonen](http://www.ecma-international.org/publications/standar
 er tilgjengelig for io.js utviklere innen rimelig tid. I tillegg vil sikkerhets-
 og ytelesesforbedringer komme raskt.
 
-Versjon {{ iojs_version }} av io.js kommer med V8 {{ v8_version }}, denne
+Versjon {{ site.iojs_version }} av io.js kommer med V8 versjon {{ site.v8_version }}, denne
 inkluderer ES6-funksjoner godt forbi versjon 3.28.73 som vil bli levert med
 Node.js™ 0.12.x.
 
 ## Slutt på --harmony-flagget
 
-Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony`-flagget alle 
-**completed**, **staged** og **in progress** ES6-funksjoner sammen
-(med unntak av `proxies` som 
-ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at ustabile eller 
-til og med ødelagte funksjoner som 
+Med Node.js™@0.12.x (V8 3.28+) aktiverte  `--harmony`-flagget ES6-funksjonene
+**completed**, **staged** og **in progress** (med unntak av `proxies` som
+ble skjult ved bruk av `--harmony-proxies`). Dette resulterte i at ustabile, eller
+til og med ødelagte, funksjoner som
 [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 var like tilgjengelig for utviklere som 
 [generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*),
-som hadde veldig få eller ingen kjente problemer. Følgelig var det sikrest
+som hadde veldig få, eller ingen, kjente problemer. Følgelig var det sikrest
 å aktivere enten et fåtall funksjoner ved å bruke spesifikke harmony-flagg (f.eks.
 `--harmony-generators`), eller aktivere dem alle og deretter bare bruke
 en begrenset delmengde.
 
 Med io.js@1.x (V8 4.1+) forsvinner all denne kompleksiteten. Alle harmony-funksjoner
-er nå logisk fordelt inn i tre grupper for **shipping**, **staged** og **in
-progress** funksjoner:
+er nå logisk fordelt inn i tre grupper for **shipping**-, **staged**- og **in
+progress**-funksjoner:
 
- * Alle **shipping** funksjoner, som V8 har vurdert som stabile, for eksempel <a
+ * Alle **shipping**-funksjoner, som V8 har vurdert som stabile, for eksempel <a
    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*">generators</a>,
    <a
    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings">templates</a>,
@@ -43,7 +42,7 @@ progress** funksjoner:
    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_6_support_in_Mozilla#Additions_to_the_String_object">new
    string methods</a> og mange flere er nå skrudd **på som standard i io.js** og
    krever  **INGEN** flagg.
- * Deretter er det **staged** funksjoner, som er nesten fullførte funksjoner som ikke  
+ * Deretter er det **staged**-funksjoner, som er nesten fullførte funksjoner som ikke
    har blitt fullstendig testet eller oppdatert i henhold til den siste spesifikasjonen
    enda. Følgelig er de ikke ansett som stabile av V8 laget (f.eks. kan det være
    noen 'edge cases' som ikke har blitt oppdaget). Dette er mest sannsynlig 
@@ -52,9 +51,9 @@ progress** funksjoner:
    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*">generators</a>
    i 3.26. Disse er "bruk på egen risiko" funksjoner som nå krever flagget
    : `--es_staging` (eller synonymet, `--harmony`).
- * Avsluttende kan alle **in progress** funksjoner bli aktivert individuelt
-   av deres respektive harmony-flagg (f.eks. `--harmony_arrow_functions`), selv om 
-   dette ikke er anbefalt - ved mindre det brukes til testing.
+ * Til slutt, alle **in progress**-funksjoner kan bli aktivert individuelt
+   av deres respektive harmony-flagg (f.eks. `--harmony_arrow_functions`), selv om
+   dette ikke er anbefalt med mindre det brukes til testing.
 
 ## Hvilke ES6-funksjoner følger med io.js som standard (uten å bruke flagg)?
 
@@ -81,8 +80,8 @@ av ES6-spesifikasjonen.
  * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol">Symbols</a>
  * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings">Template strings</a>
 
-Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på 
-<a href="https://kangax.github.io/compat-table/es6/">compat-table</a> prosjektsiden.
+Du kan se en mer detaljert liste med sammenligninger opp mot andre motorer på prosjektsiden til
+<a href="https://kangax.github.io/compat-table/es6/">compat-table</a>.
 
 ## Hvilke ES6-funksjoner ligger i --es_staging-flagget?
 
@@ -93,17 +92,17 @@ Du kan se en mer detaljert liste med sammenligning opp mot andre motorer på
 ## Jeg bruker --harmony-flagg i produksjon. Burde jeg fjerne det?
 
 Den nåværende oppførselen til `--harmony`-flagget i io.js er å kun aktivere
-**staged** funksjoner. Tross alt er nå dette synonymt med `--es_staging`. 
-Som nevnt overfor are dette fullførte funksjoner som enda ikke er ansett
+**staged**-funksjoner. Dette er tross alt nå synonymt med `--es_staging`.
+Som nevnt ovenfor er dette fullførte funksjoner som enda ikke er ansett
 som stabile enda. Hvis du ønsker å være på den sikre siden, kanskje spesielt
 med tanke på produksjonsmiljøer, bør du vurdere å fjerne dette flagget inntil
 det leveres som standard av V8 og io.js. Hvis du fortsetter å ha flagget aktivert
-bør du være forberedt på at nyere io.js oppgraderinger kan ødelegge koden din
+bør du være forberedt på at nyere io.js-oppgraderinger kan ødelegge koden din
 dersom V8 endrer semantikken sin til å være mer lik standarden.
 
 ## Hvordan finner jeg ut hvilken versjon av V8 en gitt io.js versjon har?
 io.js har en enkel måte å liste alle avhengigheter/dependencies og versjoner
-av en gitt binær med det globale objektet `process`. For å finne V8 versjonen
+av en gitt binær med det globale objektet `process`. For å finne-V8 versjonen
 kan du skrive følgende i terminalen:
 
 ```
