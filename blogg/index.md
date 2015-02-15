@@ -1,5 +1,6 @@
 ---
 layout: left_align
+redirect_from: "/blogg.html"
 title: Blogg
 ---
 
