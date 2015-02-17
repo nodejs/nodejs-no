@@ -107,6 +107,13 @@ p a {
   border-radius: 2px;
 }
 
+a.blog-title:hover {
+  background: #F7DF31;
+  padding: 0 2px;
+  margin: 0 -2px;
+  border-radius: 2px;
+}
+
 .faq-item a:hover,
 p a:hover {
   background: #F7DF31;

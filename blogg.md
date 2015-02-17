@@ -6,5 +6,5 @@ title: Blogg
 # Blogg
 
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url }})
+<h2><a href="{{ post.url }}" class="blog-title">{{ post.title }}</a>
 {% endfor %}
