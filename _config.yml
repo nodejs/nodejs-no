@@ -22,7 +22,7 @@ iojsno_git: https://github.com/iojs/iojs-no/
 ga_id: UA-59507608-1
 
 relative_permalinks: false
-permalink: /post/:year/:month/:day/:title/
+permalink: /blogg/:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 markdown: redcarpet
 highlighter: pygments

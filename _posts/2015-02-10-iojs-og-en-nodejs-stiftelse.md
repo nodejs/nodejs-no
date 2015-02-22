@@ -1,5 +1,6 @@
 ---
 layout: left_align
+redirect_from: "/post/2015/02/10/iojs-og-en-nodejs-stiftelse/"
 title: io.js og en node.js-stiftelse
 date: "2015-02-10 12:00:00 +0100"
 author: iojs
