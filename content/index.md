@@ -1,43 +1,24 @@
 # {{ page.title }}
 
-<p class="lead">
-  Bringer <a href="es6.html">ES6</a> til Node-fellesskapet!
-</p>
-<p class="lead">
-  <a href="https://iojs.org/">io.js</a> er en <a
-    href="https://www.npmjs.org/">npm</a>-kompatibel platform opprinnelig basert på <a href="https://nodejs.org/">node.js</a>&#8482;.
-</p>
+Bringer [ES6](es6.html) til Node-fellesskapet!
 
-<div class="release">
-  <a href="https://iojs.org/dist/v{{ site.iojs_version }}/" class="release-logo-link">
-    <img class="release-logo" src="images/1.0.0.png" alt="io.js" />
-  </a>
+[io.js](https://iojs.org)  er en [npm](https://www.npmjs.org)-kompatibel
+platform opprinnelig basert på [node.js](https://nodejs.org/)&#8482;.
 
-  <div class="release-details">
-    <span class="release-version">
-      <!-- {{ site.iojs_release }} -->
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}/">
-        Versjon {{ site.iojs_version }}
-      </a>
-    </span>
-    <br>
-    <span class="release-downloads">
-      Last ned til
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-linux-x64.tar.xz">Linux</a>,
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-x86.msi">Win32</a>,
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}-x64.msi">Win64</a>,
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}/iojs-v{{ site.iojs_version }}.pkg">Mac</a>, eller
-      <a href="https://iojs.org/dist/v{{ site.iojs_version }}">andre</a>
-    </span>
-    <br>
-    <span class="release-changelog">
-      <a href="{{ site.iojs_changelog }}">Se endringer (engelsk)</a>
-    </span>
-  </div>
-</div>
+[![io.js](/images/1.0.0.png)](https://iojs.org/dist/v1.4.1/)
 
-<p class="lead">
-  <a href="https://iojs.org/download/nightly/">Nattlige bygg</a> er tilgjengelig for testing.<br>
-  <a href="/faq.html">Ofte stilte spørsmål</a>
-</p>
+[Versjon 1.4.1](https://iojs.org/dist/v1.4.1/)
+
+Last ned til
+[Linux](https://iojs.org/dist/v1.4.1/iojs-v1.4.1-linux-x64.tar.xz),
+[Win32](https://iojs.org/dist/v1.4.1/iojs-v1.4.1-x86.msi),
+[Win64](https://iojs.org/dist/v1.4.1/iojs-v1.4.1-x64.msi),
+[Mac](https://iojs.org/dist/v1.4.1/iojs-v1.4.1.pkg), eller
+[andre](https://iojs.org/dist/v1.4.1/).
+
+[Se endringer (engelsk)](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md)
+
+[Nattlige bygg](https://iojs.org/download/nightly/) er tilgjengelig for testing.
+
+[Ofte stilte spørsmål](/faq.html)
 

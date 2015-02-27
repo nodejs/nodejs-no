@@ -4,7 +4,7 @@
 
 ## Hva er io.js?
 
-[io.js]({{ site.iojs_url }}) er en JavaScript-plattform bygget på [Chromes
+[io.js](https://iojs.org/) er en JavaScript-plattform bygget på [Chromes
 V8-kjøremiljø](http://code.google.com/p/v8/). Prosjektet begynte som en fork av
 [Joyents Node.js™](https://nodejs.org/) og er kompatibel med
 [npm's](https://www.npmjs.com/) økosystem.
@@ -16,8 +16,8 @@ inkluderes de nyeste språk-, API-, og ytelsesforbedringene til V8, samtidig som
 libuv og andre grunnbiblioteker blir oppdatert.
 
 Dette prosjektet ønsker å fortsette utviklingen av io.js under en [åpen
-styringsmodell]({{ iojs_governance }}), i motsetning til å bli forvaltet av et
-selskap.
+styringsmodell](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme),
+i motsetning til å bli forvaltet av et selskap.
 
 <a id="versjonering"></a>
 
@@ -27,25 +27,28 @@ io.js har adoptert [Semver](http://semver.org/), og endringene mellom Node.js™
 0.10 og io.js 1.0.0 var signifikante nok til å rettferdiggjøre en ny
 hovedversjon.
 
-Vår [ENDRINGSLOGG]({{ site.iojs_changelog }}) for v1.x gir deg [et sammendrag av
-endringene mellom Node.js™ v0.10.35 og io.js v1.0.x]({{ site-iojs_v1changes }}).
+Vår [ENDRINGSLOGG](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md) for
+v1.x gir deg [et sammendrag av endringene mellom Node.js™ v0.10.35 og io.js
+v1.0.x](https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#summary-of-changes-from-nodejs-v01035-to-iojs-v100).
 
 <a id="hvordan-kan-jeg-bidra"></a>
 
 ## Hvordan kan jeg bidra?
 
 Alle kan hjelpe til! io.js tar i bruk følgende [retningslinjer for
-oppførsel]({{site.iojs_coc}}). Bidragsytere, lanseringer og eierskap er
-underlagt en [åpen styringsmodell]({{ site.iojs_governance }}).
+oppførsel](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-of-conduct).
+Bidragsytere, lanseringer og eierskap er underlagt en [åpen
+styringsmodell](https://github.com/iojs/io.js/blob/v1.x/GOVERNANCE.md#readme).
 
 For å komme i gang finnes det flere åpne [diskusjoner på
-GitHub]({{site.iojs_issues}}) hvor vi gjerne tar i mot dine tilbakemeldinger.
-Det å involvere seg i diskusjoner er en god måte å finne ut av hvordan du kan
-bidra videre. [Lag gjerne en pull
-request]({{site.iojs_contribute}}#code-contributions) om det er noe du føler du
-kan ta tak i. I tillegg er det å bruke [http://nodebug.me/](Nodebug.me) en
-ypperlig måte å hjelpe til med å bestemme prioritering av problemer i
-produktkøen.
+GitHub](https://github.com/iojs/io.js/issues) hvor vi gjerne tar i mot dine
+tilbakemeldinger. Det å involvere seg i diskusjoner er en god måte å finne ut
+av hvordan du kan bidra videre. [Lag gjerne en pull
+request](https://github.com/iojs/io.js/blob/v1.x/CONTRIBUTING.md#code-contributions)
+om det er noe du føler du kan ta tak i.
+
+I tillegg er det å bruke [http://nodebug.me/](Nodebug.me) en ypperlig måte å
+hjelpe til med å bestemme prioritering av problemer i produktkøen.
 
 <a id="hvor-tar-diskusjoner-plass"></a>
 
