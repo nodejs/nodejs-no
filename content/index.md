@@ -1,4 +1,4 @@
-# {{ page.title }}
+# JavaScript I/O
 
 Bringer [ES6](es6.html) til Node-fellesskapet!
 
