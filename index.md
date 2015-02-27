@@ -1,8 +1,9 @@
 ---
+title: JavaScript I/O
 layout: default
 ---
 
-# JavaScript I/O
+# {{ page.title }}
 
 <p class="lead">
   Bringer <a href="es6.html">ES6</a> til Node-fellesskapet!
