@@ -1,5 +1,6 @@
 ---
 layout: default
+source: es6
 title: ES6
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+source: faq
 title: faq
 ---
 
