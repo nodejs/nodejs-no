@@ -5,6 +5,7 @@ author: io.js Norge
 iojs_release: 2015-02-26
 iojs_version: 1.4.1
 v8_version: 4.1.0.21
+libuv_version: 1.4.2
 
 iojs_url: https://iojs.org/
 iojs_org: https://github.com/iojs/
