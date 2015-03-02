@@ -1,5 +1,5 @@
 [submodule "content"]
   path = content
-  url = git@github.com:iojs/iojs-no.git
+  url = https://github.com/iojs/iojs-no.git
   branch = website
 
